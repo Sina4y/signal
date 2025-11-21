@@ -1,5 +1,4 @@
 import type {
-  FoodItem,
   UserProfile,
   MealItem,
   DailyMenu,

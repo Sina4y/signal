@@ -53,7 +53,7 @@ export function ServingsChart({ servings, title = 'Servings Distribution', type 
                 cx="50%"
                 cy="50%"
                 labelLine={{ stroke: '#888', strokeWidth: 1 }}
-                label={({ name, percentage, cx, cy, midAngle, innerRadius, outerRadius, x, y }) => {
+                label={({ name, percentage, cx, cy, midAngle, outerRadius}) => {
                   if (percentage === 0) return null;
                   
                   const RADIAN = Math.PI / 180;
